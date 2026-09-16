@@ -14,4 +14,4 @@ jobs:
             -H "Authorization: Token ${{ secrets.DBT_CLOUD_API_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d '{"cause": "Triggered by merge to main"}' \
-            https://cloud.getdbt.com/api/v2/accounts/70506183162681/jobs/70506183139687/run/
+            https://qi096.us1.dbt.com/api/v2/accounts/70506183162681/jobs/70506183139687/run/
